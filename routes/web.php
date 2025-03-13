@@ -7,3 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('test', [\App\Http\Controllers\ArticleController::class, "store"]);
+
+Route::get('users', [\App\Http\Controllers\UserController::class, 'index']);
